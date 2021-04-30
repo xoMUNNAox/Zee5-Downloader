@@ -29,7 +29,7 @@ def send_start(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.START_TEXT.format(update.from_user.first_name),
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ CHANNEL ⭕️", url="https://t.me/X_F0RCED")], [InlineKeyboardButton(text="😇 SUPPORT", url="https://t.me/TroJanzSupport"),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ CHANNEL ⭕️", url="https://t.me/X_F0RCED")], [InlineKeyboardButton(text="😇 SUPPORT", url="https://t.me/X_F0RCE_TEAM"),
                                                     InlineKeyboardButton(text="⭕️ OWNER ⭕️", url="https://t.me/SEDxD")]]),
         parse_mode="html",
         disable_web_page_preview=True,
